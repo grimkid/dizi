@@ -1,0 +1,142 @@
+div {
+  position: relative;
+  padding: auto;
+}
+span {
+  margin: auto;
+}
+#header {
+  position: relative;
+  height : 5%;
+  width: 100%;
+  top: 0px;
+}
+#left-pane {
+  position: relative;
+  height: 90%;
+  width: 10%;
+  left: 0px;
+  float: left;
+}
+#container {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  float: left;
+  background-color: yellow;
+}
+#right-pane {
+  position: relative;
+  height: 90%;
+  width: 10%;
+  right: 0px;
+  float:right;
+}
+#footer {
+  position: relative;
+  height: 5%;
+  width: 100%;
+  bottom: 0px;
+  float:left;
+}
+#case-selector {
+  position: relative;
+  height : 10%;
+  width: 100%;
+  top: 0px;
+}
+#navigation {
+  position: relative;
+  height: 85%;
+  width: 10%;
+  left: 0px;
+  float: left;
+}
+#scene {
+  position: relative;
+  width: 80%;
+  height: 85%;
+  float: left;
+}
+#navigation-2 {
+  position: relative;
+  height: 85%;
+  width: 10%;
+  right: 0px;
+  float:right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#canvas {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+.automation-element {
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: outset;
+}
+#motor {
+  background-color: cyan;
+  height: 100%;
+}
+#first-row {
+  height: 10%;
+}
+#first-row {
+  height: 10%;
+}
+#second-row {
+  height: 70%;
+}
+#third-row {
+  height: 10%;
+}
+#fourth-row {
+  height: 10%;
+}
+.background-row {
+  background-color: yellow;
+  height: 100%;
+}
+.power-line {
+  height: 100%;
+  background-color: green;
+  border-width: 1px;
+  border-color: black;
+}
+#switch-1 {
+  background-color: green;
+}
+#switch-2 {
+  background-color: green;
+}
+#switch-3 {
+  background-color: green;
+}
+#switch-4 {
+  background-color: green;
+}

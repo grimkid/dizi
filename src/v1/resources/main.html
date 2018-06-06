@@ -1,0 +1,56 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap-grid.min.css">
+   <meta charset="UTF-8">
+</head>
+<body>
+  <div id="header"></div>
+  <div id="left-pane"></div>
+  <div id="container">
+    <div id="case-selector">
+      <ul>
+        <li><a class="active" href="#">Cazul 1</a></li>
+        <li><a href="#">Cazul 2</a></li>
+        <li><a href="#">Cazul 3</a></li>
+      </ul>
+    </div>
+    <div id="navigation"></div>
+    <div id="scene">
+      <div class="container" id="canvas">
+        <div id="first-row" class="row">
+          <div id="motor" class="col-2 automation-element"><span>Source 1</span></div>
+          <div class="col-3 background-row"></div>
+          <div id="motor" class="col-2 automation-element"><span>Source 2</span></div>
+          <div class="col-3 background-row"></div>
+          <div id="motor" class="col-2 automation-element"><span>Source 3</span></div>
+        </div>
+        <div id="second-row" class="row">
+          <div id="power-line-1" class="col-2 power-line"></div>
+          <div class="col-3 background-row"></div>
+          <div id="power-line-2" class="col-2 power-line"></div>
+          <div class="col-3 background-row"></div>
+          <div id="power-line-3" class="col-2 power-line"></div>
+        </div>
+        <div id="third-row" class="row">
+          <div id="switch-1" class="col-2 automation-element"><span>Switch 1</span></div>
+          <div class="col-3 background-row"></div>
+          <div id="switch-2" class="col-2 automation-element"><span>Switch 2</span></div>
+          <div class="col-3 background-row"></div>
+          <div id="switch-3" class="col-2 automation-element"><span>Switch 3</span></div>
+        </div>
+        <div id="fourth-row" class="row">
+          <div id="main-power-line-1" class="col-7 power-line"></div>
+          <div id="switch-4" class="col-2 automation-element"><span>Switch 4</span></div>
+          <div id="main-power-line-2" class="col-3 power-line"></div>
+        </div>
+      </div>
+    </div>
+    <div id="navigation-2"></div>
+  </div>
+  <div id="right-pane"></div>
+  <div id="footer"></div>
+   <script src="scripts/jquery.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
